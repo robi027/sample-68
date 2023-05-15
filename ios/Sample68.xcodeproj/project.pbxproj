@@ -14,6 +14,13 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-Sample68-Sample68Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-Sample68-Sample68Tests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		982C161A29D148DF0059F183 /* ScriptLoadUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 982C161229D148DE0059F183 /* ScriptLoadUtil.m */; };
+		982C161B29D148DF0059F183 /* NavigationBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 982C161429D148DF0059F183 /* NavigationBridge.m */; };
+		982C161C29D148DF0059F183 /* BundleLoadEventEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 982C161829D148DF0059F183 /* BundleLoadEventEmitter.m */; };
+		982C161D29D148DF0059F183 /* ReactController.m in Sources */ = {isa = PBXBuildFile; fileRef = 982C161929D148DF0059F183 /* ReactController.m */; };
+		982C162129D14E1E0059F183 /* platform.ios.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 982C161E29D14E1D0059F183 /* platform.ios.bundle */; };
+		982C162229D14E1E0059F183 /* index.ios.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 982C161F29D14E1E0059F183 /* index.ios.bundle */; };
+		982C162329D14E1E0059F183 /* profile.ios.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 982C162029D14E1E0059F183 /* profile.ios.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +50,18 @@
 		5DCACB8F33CDC322A6C60F78 /* libPods-Sample68.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Sample68.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Sample68/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-Sample68-Sample68Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sample68-Sample68Tests.release.xcconfig"; path = "Target Support Files/Pods-Sample68-Sample68Tests/Pods-Sample68-Sample68Tests.release.xcconfig"; sourceTree = "<group>"; };
+		982C161129D148DE0059F183 /* ScriptLoadUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScriptLoadUtil.h; path = Sample68/ScriptLoadUtil.h; sourceTree = "<group>"; };
+		982C161229D148DE0059F183 /* ScriptLoadUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScriptLoadUtil.m; path = Sample68/ScriptLoadUtil.m; sourceTree = "<group>"; };
+		982C161329D148DF0059F183 /* NavigationBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NavigationBridge.h; path = Sample68/NavigationBridge.h; sourceTree = "<group>"; };
+		982C161429D148DF0059F183 /* NavigationBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NavigationBridge.m; path = Sample68/NavigationBridge.m; sourceTree = "<group>"; };
+		982C161629D148DF0059F183 /* ReactController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReactController.h; path = Sample68/ReactController.h; sourceTree = "<group>"; };
+		982C161729D148DF0059F183 /* BundleLoadEventEmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BundleLoadEventEmitter.h; path = Sample68/BundleLoadEventEmitter.h; sourceTree = "<group>"; };
+		982C161829D148DF0059F183 /* BundleLoadEventEmitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BundleLoadEventEmitter.m; path = Sample68/BundleLoadEventEmitter.m; sourceTree = "<group>"; };
+		982C161929D148DF0059F183 /* ReactController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReactController.m; path = Sample68/ReactController.m; sourceTree = "<group>"; };
+		982C161E29D14E1D0059F183 /* platform.ios.bundle */ = {isa = PBXFileReference; lastKnownFileType = text; name = platform.ios.bundle; path = Sample68/platform.ios.bundle; sourceTree = "<group>"; };
+		982C161F29D14E1E0059F183 /* index.ios.bundle */ = {isa = PBXFileReference; lastKnownFileType = text; name = index.ios.bundle; path = Sample68/index.ios.bundle; sourceTree = "<group>"; };
+		982C162029D14E1E0059F183 /* profile.ios.bundle */ = {isa = PBXFileReference; lastKnownFileType = text; name = profile.ios.bundle; path = Sample68/profile.ios.bundle; sourceTree = "<group>"; };
+		982C162C29D15F930059F183 /* RCTBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTBridge.h; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -86,12 +105,21 @@
 		13B07FAE1A68108700A75B9A /* Sample68 */ = {
 			isa = PBXGroup;
 			children = (
+				982C161729D148DF0059F183 /* BundleLoadEventEmitter.h */,
+				982C161829D148DF0059F183 /* BundleLoadEventEmitter.m */,
+				982C161329D148DF0059F183 /* NavigationBridge.h */,
+				982C161429D148DF0059F183 /* NavigationBridge.m */,
+				982C161629D148DF0059F183 /* ReactController.h */,
+				982C161929D148DF0059F183 /* ReactController.m */,
+				982C161129D148DE0059F183 /* ScriptLoadUtil.h */,
+				982C161229D148DE0059F183 /* ScriptLoadUtil.m */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				982C162C29D15F930059F183 /* RCTBridge.h */,
 			);
 			name = Sample68;
 			sourceTree = "<group>";
@@ -116,6 +144,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				982C161F29D14E1E0059F183 /* index.ios.bundle */,
+				982C161E29D14E1D0059F183 /* platform.ios.bundle */,
+				982C162029D14E1E0059F183 /* profile.ios.bundle */,
 				13B07FAE1A68108700A75B9A /* Sample68 */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* Sample68Tests */,
@@ -242,6 +273,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				982C162129D14E1E0059F183 /* platform.ios.bundle in Resources */,
+				982C162229D14E1E0059F183 /* index.ios.bundle in Resources */,
+				982C162329D14E1E0059F183 /* profile.ios.bundle in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
@@ -410,8 +444,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				982C161A29D148DF0059F183 /* ScriptLoadUtil.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				982C161C29D148DF0059F183 /* BundleLoadEventEmitter.m in Sources */,
+				982C161B29D148DF0059F183 /* NavigationBridge.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				982C161D29D148DF0059F183 /* ReactController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +523,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = arm64;
 				INFOPLIST_FILE = Sample68/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -510,6 +549,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				EXCLUDED_ARCHS = arm64;
 				INFOPLIST_FILE = Sample68/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -560,6 +600,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = arm64;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -587,7 +628,7 @@
 					"\"$(inherited)\"",
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-DFOLLY_NO_CONFIG",
@@ -631,6 +672,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = arm64;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -651,6 +693,7 @@
 					"\"$(inherited)\"",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-DFOLLY_NO_CONFIG",

@@ -5597,6 +5597,11 @@ react-native-gradle-plugin@^0.0.6:
   resolved "https://nxrm.jenius.tech/repository/npm-group/react-native-gradle-plugin/-/react-native-gradle-plugin-0.0.6.tgz#b61a9234ad2f61430937911003cddd7e15c72b45"
   integrity sha512-eIlgtsmDp1jLC24dRn43hB3kEcZVqx6DUQbR0N1ABXGnMEafm9I3V3dUUeD1vh+Dy5WqijSoEwLNUPLgu5zDMg==
 
+react-native-smartassets@^1.0.4:
+  version "1.0.4"
+  resolved "https://nxrm.jenius.tech/repository/npm-group/react-native-smartassets/-/react-native-smartassets-1.0.4.tgz#51479d5ef57910d7296be36c04c4daa6a74fdaf1"
+  integrity sha512-7Vqz+qKkmvDcqKfWAoVWVLphc9jCp0jyXLw3WEk98ab0s2HRmtywSk4UdYw1vGKr0TwZtzfyANt1uYrWSCpWrw==
+
 react-native@0.68.5:
   version "0.68.5"
   resolved "https://nxrm.jenius.tech/repository/npm-group/react-native/-/react-native-0.68.5.tgz#8ba7389e00b757c59b6ea23bf38303d52367d155"
